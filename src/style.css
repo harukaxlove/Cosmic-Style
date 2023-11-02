@@ -1,0 +1,735 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg__main {
+    position: absolute;
+    background-color: #0000003a;
+    width: 100%;
+    height: 955px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(/reg_menu/img/Leonardo_Diffusion_XL_space_with_a_man_flying_there_0\ 1.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    filter: blur(2.5px);
+    z-index: 1;
+}
+
+.bg__second {
+    position: absolute;
+    left: 460px;
+    top: 25px;
+    width: 1378px;
+    height: 910px;
+    background: url(/reg_menu/img/Leonardo_Diffusion_XL_space_with_a_man_flying_there_0\ 2.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    z-index: 99;
+}
+
+.bg__fields {
+    border-radius: 2px;
+    position: absolute;
+    top: 25px;
+    left: 55px;
+    background: #181818;
+    width: 406px;
+    height: 910px;
+    z-index: 99;
+}
+
+.logo {
+    position: relative;
+    left: 125px;
+    top: 1rem;
+    width: 160px;
+    height: 150px;
+    background: url(/reg_menu/img/logo.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+}
+
+.sign__in__text h1{
+    position: relative;
+    top: 1rem;
+    left: 115px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email__sign__in__form__name h2{
+    position: relative;
+    top: 1rem;
+    margin-left: 1.5rem;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email__sign__in__form{
+    margin-top: 0.5rem;
+}
+
+.email__sign__in__form input[type="text"]{
+    position: relative;
+    padding-left: 1rem;
+    top: 1rem;
+    left: 1rem;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Space Mono', monospace;
+    width: 352px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background: #111;
+}
+
+::placeholder{
+    position: relative;
+    color: #363636;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.password__sign__in__form__name h2{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    position: relative;
+    top: 1rem;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.password__sign__in__form {
+    margin-top: 0.5rem;
+}
+
+.password__sign__in__form input[type='password']{
+    position: relative;
+    color: #ffffff;
+    padding-left: 1rem;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    top: 1rem;
+    left: 1rem;
+    width: 352px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background: #111;
+}
+
+.forgot__password a{
+    top: 1rem;
+    left: 2rem;
+    position: relative;
+    text-decoration: none;
+    color: #808080;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.forgot__password:hover{
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+.sign__in__button {
+    position: relative;
+    top: 2rem;
+    left: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 57px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgba(174, 0, 255, 0.671) -4.3%, #AFC1FF 104.31%);
+}
+
+.sign__in__button a{
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sign__in__button a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+hr{
+    background: #808080;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: 4rem;
+}
+
+.circle__or{
+    margin-top: 1rem;
+    position: relative;
+    top: 1.3rem;
+    left: 10.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    color: #808080;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #111;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Space Mono', monospace;
+}
+
+.sign__up__text h1{
+    position: relative;
+    top: 1rem;
+    left: 115px;
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media only screen and (max-width:390px) {
+    body{
+        width: 390px;
+        height: 850px;
+    }
+
+    .bg__main{
+        width: 390px;
+        height: 1000px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(/reg_menu/img/Leonardo_Diffusion_XL_space_with_a_man_flying_there_0\ 2.png), lightgray 50% / cover no-repeat;
+        filter: blur(2.5px);
+    }
+
+    .bg__second{
+        visibility: hidden;
+    }
+
+    .bg__fields{
+        position: absolute;
+        left: 20px;
+        width: 350px;
+        height: 800px;
+        background: #181818;
+    }
+
+    .logo{
+        width: 84px;
+        height: 80px;
+        background: url(/reg_menu/img/logo_phones.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    }
+
+    .sign__in__text h1{
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Space Mono', monospace !important;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .email__sign__in__form__name h2{
+        position: relative;
+        right: 120px;
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Space Mono', monospace;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .password__sign__in__form__name h2{
+        position: relative;
+        right: 110px;
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Space Mono', monospace;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .email__sign__in__form input[type="text"]{
+        width: 300px;
+        height: 45px;
+        border-radius: 10px;
+        background: #111;
+    }
+
+    .password__sign__in__form input[type="password"]{
+        width: 300px;
+        height: 45px;
+        border-radius: 10px;
+        background: #111;
+    }
+
+    ::placeholder{
+        color: #363636;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Space Mono', monospace;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .forgot__password a{
+        color: #808080;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Space Mono', monospace;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .sign__in__button{
+        position: relative;
+        left: 100px;
+    }
+
+    .circle__or{
+        position: relative;
+        left: 9.3rem;
+    }
+
+    .sign__up__text h1{
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Space Mono', monospace !important;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+}
+
+/* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN */
+/* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN */
+/* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN *//* REG MENU ENDED - STARTED MAIN */
+
+.main__bg{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%), url(/reg_menu/img/main_bg.png), rgba(255, 255, 255, 0) 50% / cover no-repeat;
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+}
+
+.main_container {
+    margin-top: 1rem;
+    width: 1781px;
+    height: 920px;
+    border-radius: 15px;
+    border: 1px solid #FFDCB4;
+    background: url(/reg_menu/img/3.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header_main {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(255, 146, 19, 0.15) 0%, rgba(188, 147, 255, 0.15) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main__header__logo img{
+    margin-left: 1rem;
+    position: relative;
+    top: 3px;
+    width: 80px;
+    height: 80px;
+}
+
+.header__name h1{
+    margin-left: 2rem;
+    color: #FFC683;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Space Mono', monospace;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__FAQ a{
+    text-decoration: none;
+}
+
+.header__FAQ p{
+    text-decoration: none;
+    margin-left: 35rem;
+    color: #FFEAD1;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__FAQ a p:hover{
+    cursor: pointer !important;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.header__contact a{
+    text-decoration: none;
+}
+
+.header__contact a p{
+    text-decoration: none;
+    margin-left: 10rem;
+    color: #FFEAD1;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header__contact p:hover{
+    cursor: pointer !important;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.header__contact a:hover{
+    cursor: pointer !important;
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+.fb{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.FAQ__bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 693px;
+    height: 69px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(188, 147, 255, 0.15) -0.79%, rgba(255, 146, 19, 0.15) 100.87%);
+}
+
+.FAQ__bg h1{
+    color: #FFE6C8;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.FAQ__bg h1 span{
+background: linear-gradient(90deg, #FF9213, #BC93FF);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Space Mono;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.faq__becoming h2{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    color: #FFE6C8;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__becoming h2 span{
+    background: linear-gradient(90deg, #FF9213, #BC93FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__becoming__answer{
+    width: 1000px;
+}
+
+.faq__becoming__answer h2{
+    margin-left: 5rem;
+    color: #CC9C6F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__becoming__answer h2 span{
+    background: linear-gradient(90deg, #FF9213, #BC93FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Space Mono;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__start h2{
+    margin-left: 3rem;
+    color: #FFE6C8;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__start h2 span{
+    background: linear-gradient(90deg, #FF9213, #BC93FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__start__answer {
+    width: 1000px;
+}
+
+.faq__start__answer h2{
+    margin-left: 5rem;
+    color: #CC9C6F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__start__answer h2 span{
+    background: linear-gradient(90deg, #FF9213, #BC93FF );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Space Mono;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__contact h2{
+    margin-left: 3rem;
+    color: #FFE6C8;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__contact h2 span{
+    background: linear-gradient(90deg, #FF9213, #BC93FF  );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__contact__answer {
+    width: 1000px;
+}
+
+.faq__contact__answer h2{
+    margin-left: 5rem;
+    color: #CC9C6F;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.faq__contact__answer h2 span{
+    background: linear-gradient(90deg, #FF9213, #BC93FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Space Mono;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED */
+/* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED */
+/* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED *//* FAQ ENDED - CONTACT STARTED */
+
+.socialmedias__wrapper{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.discord__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 395px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(188, 147, 255, 0.07) -0.79%, rgba(255, 146, 19, 0.07) 100.87%);
+}
+
+.discord__wrapper img{
+    width: 250px;
+    height: 155px;
+}
+
+.discord__wrapper h2{
+    color: #FFEAD1;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gradient{
+    background: linear-gradient(90deg, #FF9213, #BC93FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Space Mono;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.twitter__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 395px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(188, 147, 255, 0.07) -0.79%, rgba(255, 146, 19, 0.07) 100.87%);
+}
+
+.twitter__wrapper img{
+    width: 155px;
+    height: 155px;
+}
+
+.twitter__wrapper h2{
+    color: #FFEAD1;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.telegram__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 395px;
+    height: 300px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(188, 147, 255, 0.07) -0.79%, rgba(255, 146, 19, 0.07) 100.87%);
+}
+
+.telegram__wrapper img{
+    width: 155px;
+    height: 155px;
+}
+
+.telegram__wrapper h2{
+    color: #FFEAD1;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Space Mono;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
